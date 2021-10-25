@@ -38,7 +38,7 @@ export default function Profile() {
   const handlePassword = (event) => {
     event.preventDefault();
     setError("");
-    passwordChangeMsg("");
+    setPasswordChangeMsg("");
     if (password.current.value && newPassword.current.value) {
       let userDetails = {
         email: user.email,
